@@ -44,7 +44,7 @@ public class DisplayAct extends AppCompatActivity
         realm.beginTransaction();
         if (result2.isEmpty())
         {
-
+            Toast.makeText(this, "data is empty", Toast.LENGTH_SHORT).show();
         }
         else
         {
